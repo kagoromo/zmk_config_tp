@@ -95,6 +95,7 @@
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
               };
     };
+
    /*
     * Input Listener Config
     */
@@ -102,7 +103,7 @@
     &mouse_ps2_input_listener { 
       move-accelerator = <&input_accelerator_move>; 
       scroll-accelerator = <&input_accelerator_scroll>; 
-      scroll-layers = <SYM MOUSE_TP>; 
+      scroll-layers = <MOUSE_TP>; 
       scroll-layers-reverse-direction-horizontal; 
       // xy-swap; 
       // x-invert; 
