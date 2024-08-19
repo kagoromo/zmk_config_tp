@@ -69,7 +69,32 @@
   // Only apply these settings on the side that has the TP connected
   // (usually the right side)
   #ifdef MOUSE_PS2_DT_PRESENT
-
+    #define PS2_MOUSE_SAMPLING_RATE 100
+    /* * Input Accelerator Config */ 
+    / { 
+        input_accelerator_move: input_accelerator_move { 
+              status = "okay"; 
+              compatible = "zmk,input-accelerator"; 
+              acceleration-curve = "sigmoid"; 
+              acceleration-factor-base = <60>; 
+              acceleration-factor-max = <120>; 
+              acceleration-factor-rate = <40>; 
+              acceleration-start-offset = <7>; 
+              max-speed = <50>; 
+              enable-interval-based-speed; 
+              input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
+        }; 
+        input_accelerator_scroll: input_accelerator_scroll { 
+              status = "okay"; 
+              compatible = "zmk,input-accelerator"; 
+              acceleration-curve = "scroll"; 
+              acceleration-factor-rate = <20>; 
+              acceleration-start-offset = <10>; 
+              max-speed = <20>; divisor = <20>; 
+              enable-interval-based-speed; 
+              input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
+              };
+    };
    /*
     * Input Listener Config
     */
@@ -77,7 +102,7 @@
     &mouse_ps2_input_listener { 
       move-accelerator = <&input_accelerator_move>; 
       scroll-accelerator = <&input_accelerator_scroll>; 
-      scroll-layers = <SYM MOUSE_TP_KEYS>; 
+      scroll-layers = <SYM MOUSE_TP>; 
       scroll-layers-reverse-direction-horizontal; 
       // xy-swap; 
       // x-invert; 
