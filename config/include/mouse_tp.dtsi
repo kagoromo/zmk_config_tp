@@ -60,7 +60,7 @@
 
   // If you prefer to set the settings in `&mouse_ps2`, you can use the key
   // codes above to find the settings you like the most and then press this
-  // key code to output the settings to the log.
+  // key code to output the settings to the log.c
   //
   // Then you can add those values to `&mouse_ps2`
   #define U_MSS_LOG     &mms MS_LOG
@@ -76,10 +76,10 @@
               status = "okay"; 
               compatible = "zmk,input-accelerator"; 
               acceleration-curve = "sigmoid"; 
-              acceleration-factor-base = <60>; 
-              acceleration-factor-max = <120>; 
+              acceleration-factor-base = <80>; 
+              acceleration-factor-max = <130>; 
               acceleration-factor-rate = <40>; 
-              acceleration-start-offset = <7>; 
+              acceleration-start-offset = <5>; 
               max-speed = <50>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
@@ -88,9 +88,10 @@
               status = "okay"; 
               compatible = "zmk,input-accelerator"; 
               acceleration-curve = "scroll"; 
-              acceleration-factor-rate = <20>; 
+              acceleration-factor-rate = <25>; 
               acceleration-start-offset = <10>; 
-              max-speed = <20>; divisor = <20>; 
+              max-speed = <20>; 
+              divisor = <20>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
               };
@@ -138,7 +139,7 @@
 
       // The maximum mouse movement speed the TP will accelarate to
       // (Default: 97)
-      // tp-val6-upper-speed = <97>;
+      tp-val6-upper-speed = <150>;
 
 
       // Negative Inertia (Default: 6)
