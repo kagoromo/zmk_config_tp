@@ -1,5 +1,18 @@
 # OS Files
 .DS_Store
 
+.build
+build
+.venv
+.vscode
+.direnv
+.west
+modules
+firmware
+kb_zmk_ps2_mouse_trackpoint_driver
+zmk
+zephyr
+
 # Temporary files
 keymap_img/keymap.yaml
+draw/corne_tp.yaml
