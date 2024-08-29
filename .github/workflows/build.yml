@@ -3,3 +3,16 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Nix
+      uses: cachix/install-nix-action@v17
+    - name: Draw
+      run: nix develop --command just draw
+    - name: diff
+      run: |
+        nix develop --command git diff
+        nix develop --command git branch
