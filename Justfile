@@ -93,7 +93,7 @@ init:
     west init -l config
     west update
     west zephyr-export
-    cp -r boards/ zmk/app/boards/
+    cp -r boards/. zmk/app/boards
 
 # list build targets
 list:
