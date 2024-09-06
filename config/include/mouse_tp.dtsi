@@ -77,10 +77,10 @@
               compatible = "zmk,input-accelerator"; 
               acceleration-curve = "sigmoid"; 
               acceleration-factor-base = <80>; 
-              acceleration-factor-max = <130>; 
-              acceleration-factor-rate = <40>; 
+              acceleration-factor-max = <500>; 
+              acceleration-factor-rate = <150>; 
               acceleration-start-offset = <5>; 
-              max-speed = <50>; 
+              max-speed = <254>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
         }; 
@@ -139,7 +139,7 @@
 
       // The maximum mouse movement speed the TP will accelarate to
       // (Default: 97)
-      tp-val6-upper-speed = <200>;
+      tp-val6-upper-speed = <500>;
 
 
       // Negative Inertia (Default: 6)

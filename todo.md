@@ -4,10 +4,11 @@
 - [x] Update mouse key location
 - [ ] Try layer-toggle (vs. manual layer - maybe just make a &lt to the same layer??)
 - [x] Create num/sym layers
-- [ ] Rework util layers for TP settings, volume, media control
+- [ ] Setup/rework util layers for TP settings, volume, media control
 - [ ] Capsword
+- [ ] Try timeless HRM
 - [ ] Try different sensitivies on trackpoint
-- [ ] Get scroll working with driver feature branch
+- [x] Get scroll working with driver feature branch
 - [ ] Try combos 
-- [ ] Add gha for generating keymap pics
-- [ ] Add commit to firmware file name
+- [ ] Update keymap draw config using Infused-Kims example
+- [x] Add gha for generating keymap pics
