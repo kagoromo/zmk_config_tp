@@ -11,6 +11,7 @@ modules
 firmware
 kb_zmk_ps2_mouse_trackpoint_driver
 zmk
+zmk-helpers
 zephyr
 
 # Temporary files
