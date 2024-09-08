@@ -10,5 +10,6 @@
 - [ ] Try different sensitivies on trackpoint
 - [x] Get scroll working with driver feature branch
 - [ ] Try combos 
-- [ ] Update keymap draw config using Infused-Kims example
+- [x] Update keymap draw config using Infused-Kims example
+- [ ] Add more custom keycodes, eg. for switching tabs on browser
 - [x] Add gha for generating keymap pics
