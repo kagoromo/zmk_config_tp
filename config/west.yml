@@ -61,6 +61,11 @@ manifest:
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: infused-kim
       revision: dev/2024-04-acceleration
-    
+
+
+    # urob's ZMK Helpers for Keycodes, etc. 
+    - name: zmk-helpers
+      remote: urob
+      revision: main
   self:
     path: config
