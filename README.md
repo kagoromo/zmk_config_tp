@@ -15,7 +15,7 @@ I'm currently using the [KLP Lame](https://github.com/braindefender/KLP-Lame-Key
 
 See the [Todo](todo.md) page for changes/feature support.
 
-# Upload Util
+# Upload Utility
 
 `just upload` copies right/left keyboard halves as the keyboards are plugged in and reset. Run (it waits for a NICENANO volume to be available), plug in the right half, double-press reset, wait for upload to complete, repeat for the left half!
 
