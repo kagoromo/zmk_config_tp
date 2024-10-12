@@ -13,6 +13,8 @@ Infused-kim for:
 
 I'm currently using the [KLP Lame](https://github.com/braindefender/KLP-Lame-Keycaps) 3d printed keycaps (in resin). 
 
+Case by me - see [here](https://www.printables.com/model/1037409-chocofi-tilt-case)
+
 See the [Todo](todo.md) page for changes/feature support.
 
 # Upload Utility

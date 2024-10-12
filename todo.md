@@ -6,7 +6,7 @@
 - [x] Create num/sym layers
 - [ ] Setup/rework util layers for TP settings, volume, media control
 - [ ] Capsword
-- [ ] Try timeless HRM
+- [x] Try timeless HRM
 - [ ] Try different sensitivies on trackpoint
 - [x] Get scroll working with driver feature branch
 - [ ] Try combos 
