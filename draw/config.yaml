@@ -6,6 +6,7 @@ draw_config:
   combo_w: 28.0
   inner_pad_h: 2.0
   inner_pad_w: 2.0
+  dark_mode: false 
   key_h: 56.0
   key_rx: 6.0
   key_ry: 6.0
