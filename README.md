@@ -15,6 +15,8 @@ I'm currently using the [KLP Lame](https://github.com/braindefender/KLP-Lame-Key
 
 Case by me - see [here](https://www.printables.com/model/1037409-chocofi-tilt-case)
 
+Trackpoint Cap by Penguin_holic [here](https://www.printables.com/model/396506-trackpoint-cap-for-thinkpad-keyboard)
+
 See the [Todo](todo.md) page for changes/feature support.
 
 # Upload Utility
