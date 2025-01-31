@@ -89,7 +89,9 @@ draw_config:
         fill: none;
     }
 parse_config:
-  assign_combos_to_layers: false
+  zmk_additional_includes:
+    - "zmk-helpers/include"
+  assign_combos_to_layers: false 
   preprocess: true
   qmk_keycode_map:
     AMPERSAND: '&'
@@ -300,4 +302,4 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
-  zmk_combos: {}
+#   zmk_combos: 
