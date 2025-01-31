@@ -10,6 +10,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: Install Nix
       uses: cachix/install-nix-action@v17
+    - name: Build
+      run: nix develop --command just build
     - name: Draw
       run: nix develop --command just draw
     - name: diff
