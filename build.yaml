@@ -30,5 +30,5 @@ include:
   #
   # More info:
   # https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair
-  - board: nice_nano_v2
-    shield: settings_reset
+  # - board: nice_nano_v2
+  #   shield: settings_reset

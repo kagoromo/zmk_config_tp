@@ -12,7 +12,7 @@
 if SHIELD_CORNE_TP_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Corne TP"
+    default "Chocofi"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

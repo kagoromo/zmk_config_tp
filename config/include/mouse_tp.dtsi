@@ -106,14 +106,14 @@
       //scroll-accelerator = <&input_accelerator_scroll>; 
       // set the layer that will change the mouse behavior from move to scroll
       // when active
-      scroll-layers = <SCROLL>; 
+      scroll-layers = <10>; 
       scroll-layers-reverse-direction-horizontal; 
       // xy-swap; 
       // x-invert; 
       // y-invert; 
       // Set the layer that should automatically activate when the mouse is 
       // moving. 
-      // layer-toggle = <MOUSE_TP>; 
+      layer-toggle = <3>; 
       // How long the mouse needs to move for before the layer is activated (to 
       // avoid accidental activations while typing) (Default: 250) 
       layer-toggle-delay-ms = <250>; 
