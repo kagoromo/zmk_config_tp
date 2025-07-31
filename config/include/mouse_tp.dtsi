@@ -88,7 +88,7 @@
               status = "okay"; 
               compatible = "zmk,input-accelerator"; 
               acceleration-curve = "scroll"; 
-              acceleration-factor-rate = <25>; 
+              acceleration-factor-rate = <15>; 
               acceleration-start-offset = <10>; 
               max-speed = <100>; 
               divisor = <20>; 
@@ -107,7 +107,7 @@
       // set the layer that will change the mouse behavior from move to scroll
       // when active
       scroll-layers = <10>; 
-      //scroll-layers-reverse-direction-horizontal; 
+      scroll-layers-reverse-direction-horizontal; 
       // xy-swap; 
       // x-invert; 
       // y-invert; 
