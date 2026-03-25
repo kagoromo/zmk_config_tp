@@ -80,7 +80,7 @@
               acceleration-factor-max = <130>; 
               acceleration-factor-rate = <40>; 
               acceleration-start-offset = <0>; 
-              max-speed = <500>; 
+              max-speed = <800>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
         }; 
@@ -91,7 +91,7 @@
               acceleration-factor-rate = <15>; 
               acceleration-start-offset = <10>; 
               max-speed = <100>; 
-              divisor = <20>; 
+              divisor = <50>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
               };
@@ -107,7 +107,7 @@
       // set the layer that will change the mouse behavior from move to scroll
       // when active
       scroll-layers = <10>; 
-      scroll-layers-reverse-direction-horizontal; 
+      // scroll-layers-reverse-direction-horizontal; 
       // xy-swap; 
       // x-invert; 
       // y-invert; 
