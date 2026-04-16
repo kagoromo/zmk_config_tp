@@ -212,7 +212,7 @@ XXX,            &kp Q,          &kp W,          &kp E,          &kp R,          
 XXX,            &hm LGUI A,     &hm LALT S,     &hm LCTRL D,    &hm LSHFT F,    &kp G,                  &kp H,          &hm RSHFT J,    &hm RCTRL K,    &hm LALT L,     &hm RGUI P,     XXX,
 XXX,            &kp Z,          &kp X,          &kp C,          &kp V,          &kp B,                  &kp N,          &kp M,          &kp COMMA,      &kp DOT,        &kp FSLH,       XXX,
 XXX,            XXX,            XXX,            &lt FN ESC,     &lt NUM SPACE,  &lt SYM TAB,            &lt MEDIA RET,  &lt NAV BSPC,   XXX,            XXX,            XXX,            XXX,
-XXX,            XXX,            XXX,            XXX,            XXX,            &mo_sys,                XXX,            XXX,            XXX,            XXX,            XXX,            XXX
+XXX,            XXX,            XXX,            XXX,            &mkp LCLK,      &mkp RCLK,              XXX,            XXX,            XXX,            XXX,            XXX,            XXX
             )>;
         };
 
@@ -223,7 +223,7 @@ XXX,            &kp Q,          &kp W,          &kp F,          &kp P,          
 XXX,            &hm LGUI A,     &hm LALT R,     &hm LCTRL S,    &hm LSHFT T,    &kp G,                  &kp M,          &hm RSHFT N,    &hm RCTRL E,    &hm LALT I,     &hm RGUI O,     XXX,
 XXX,            &kp Z,          &kp X,          &kp C,          &kp D,          &kp V,                  &kp K,          &kp H,          &kp COMMA,      &kp DOT,        &kp FSLH,       XXX,
 XXX,            XXX,            XXX,            &lt FN ESC,     &lt NUM SPACE,  &lt SYM TAB,            &lt MEDIA RET,  &lt NAV BSPC,   XXX,            XXX,            XXX,            XXX,
-XXX,            XXX,            XXX,            XXX,            XXX,            &mo_sys,               XXX,            XXX,            XXX,            XXX,            XXX,            XXX
+XXX,            XXX,            XXX,            XXX,            &mkp LCLK,      &mkp RCLK,              XXX,            XXX,            XXX,            XXX,            XXX,            XXX
             )>;
         };
 
@@ -263,8 +263,8 @@ XXX,            XXX,            XXX,            XXX,            ___,            
         num {
             bindings = <LAYER_ADAPTER(
 XXX,            XXX,            XXX,            XXX,            XXX,            XXX,                    XXX,           XXX,            XXX,            XXX,            XXX,           XXX,
-XXX,            XXX,            &mkp MCLK,      &mkp LCLK,      &mkp RCLK,      XXX,                    &kp LBKT,      &kp N7,         &kp N8,         &kp N9,         &kp RBKT,      XXX,
-XXX,            &kp LGUI,       &kp LALT,       &kp LCTRL,      &kp LSHFT,      XXX,                    &kp EQUAL,     &kp N4,         &kp N5,         &kp N6,         &kp SEMI,      XXX,
+XXX,            XXX,            &mkp MCLK,      &mkp LCLK,      &mkp RCLK,      &kp BSPC,               &kp LBKT,      &kp N7,         &kp N8,         &kp N9,         &kp RBKT,      XXX,
+XXX,            &kp LGUI,       &kp LALT,       &kp LCTRL,      &kp LSHFT,      &kp DEL,                &kp EQUAL,     &kp N4,         &kp N5,         &kp N6,         &kp SEMI,      XXX,
 XXX,            &kp LC(Z),      &kp LC(X),      &kp LC(C),      &kp LC(V),      &kp LC(Y),              &kp BSLH,      &kp N1,         &kp N2,         &kp N3,         &kp GRAVE,     XXX,
 XXX,            XXX,            XXX,            ___,            ___,            ___,                    &kp MINUS,     &kp N0,         XXX,            XXX,            XXX,           XXX,
 XXX,            XXX,            XXX,            XXX,            ___,            ___,                    XXX,           XXX,            XXX,            XXX,            XXX,           XXX
